@@ -264,7 +264,7 @@ onRedo={() => setHistory((h) => redoHistory(h))}
 onReset={handleReset}
 onUpload={handleUpload}
 onExport={exportPNG}
-selected={selectedNodes}
+selected={selectedNodes[0] || null} 
 mutateSelected={mutateSelected}
 addText={addText}
 nudge={nudge}
