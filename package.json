@@ -1,0 +1,33 @@
+{
+    "name": "image-text-composer",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "next dev -p 3000",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@types/webfontloader": "^1.6.38",
+        "clsx": "2.1.1",
+        "immer": "10.1.1",
+        "konva": "9.3.16",
+        "nanoid": "5.0.7",
+        "next": "14.2.5",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "react-konva": "18.2.10",
+        "use-image": "1.1.2",
+        "webfontloader": "^1.6.28",
+        "zustand": "4.5.5"
+    },
+    "devDependencies": {
+        "@types/node": "20.14.12",
+        "@types/react": "18.3.5",
+        "@types/react-dom": "18.3.0",
+        "eslint": "8.57.1",
+        "eslint-config-next": "14.2.5",
+        "typescript": "5.5.4"
+    }
+}
